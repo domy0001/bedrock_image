@@ -1,0 +1,459 @@
+6.Estinzione anticipata totale di contratti rateali 
+
+La modulistica contrattuale regola l’estinzione anticipata del finanziamento rateale rubricato all’articolo 125 – sexies del TUB “Rimborso Anticipato”. 
+Sebbene la normativa vigente preveda il diritto di estinguere anticipatamente il contratto di finanziamento solo per i soggetti consumatori, CA Auto Bank concede tale facoltà anche ai soggetti non consumatori.
+Nel caso di conteggio estintivo relativo a cliente consumatore dal capitale residuo viene detratta anche la quota parte delle spese up front.
+La detrazione delle spese up front prevista nel seguito della procedura si riferisce pertanto esclusivamente al cliente consumatore.
+
+6.1.Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale
+
+Il sistema gestionale è predisposto per produrre il conteggio di estinzione anticipata, quantificando l’importo totale come risultato delle seguenti voci:
+
++ debito residuo 
+- eventuali pagamenti anticipati 
+- interessi su debito residuo
+- spese incasso su debito residuo 
+- rimborso ratei premi assicurativi (ove presenti)
+- rimborso ratei premi CPI (sempre ove presente)
+ - quota parte spese non ricorrenti (upfront)
+- rimborso ratei premi Auto Protetta (sempre ove presente)
++ indennizzo di estinzione anticipata % 
++ rate prossima scadenza e/o scadute 
++ interessi di mora maturati
+
+Per i clienti consumatori dal capitale residuo viene detratta anche la quota parte delle spese up front finanziate (spese non ricorrenti come ad esempio le spese di istruttoria e di rinegoziazione) calcolata sulla base della curva degli interessi che si ricava dal Piano di Ammortamento. Nel caso in cui il TAN sia pari zero o in caso di spese upfront non finanziate, invece, viene applicato il metodo lineare in funzione della durata del finanziamento.
+
+La definizione del modello di calcolo di estinzione è effettuata da CA Auto Bank Italia –-Finance-FP&A – (di seguito ”FP&A”) con il supporto di Compliance & Supervisory Relations - CA Auto Bank Italia (di seguito “Compliance”) in particolare con riferimento alle variazioni normative con impatto sul calcolo stesso..
+
+Le decisioni inerenti l’applicazione dell’indennizzo di estinzione anticipata e di tutti gli eventuali costi addebitabili sono assunte dal Pricing Internal Committee di CA Auto Bank Italia, ai cui verbali si rimanda.
+ 
+L’indennizzo di estinzione anticipata viene calcolato in automatico dal sistema, indipendentemente dalla fattispecie clientelare (Consumatori e Non Consumatori), in misura pari a:
+•	l’1% dell’importo rimborsato in anticipo (calcolato sul debito residuo al netto di interessi, spese di incasso, servizi e premi assicurativi non goduti) se la durata residua del finanziamento è > 12 mesi
+•	lo 0,5% dell’importo rimborsato in anticipo se la vita residua è <=12 mesi.
+
+Secondo quanto previsto dall’art.125-sexies del T.U.B, l’indennizzo non deve superare l’importo degli interessi che il Cliente avrebbe pagato per la durata residua del finanziamento e non viene applicato se:
+
+•	l’estinzione anticipata è effettuata in esecuzione di un contratto di assicurazione stipulata a garanzia del credito; 
+•	l’estinzione anticipata corrisponde all’intero debito residuo ed è pari o inferiore a 10.000 Euro.
+•	il Cliente ha comunicato un evento di furto o sinistro totale (che comporti la rottamazione del mezzo)
+
+Eventuali deroghe all’applicazione dell’indennizzo, ove previste, possono essere autorizzate congiuntamente dai responsabili di CA Auto Bank Italia - Customer Care (di seguito “Customer Care”) - FP&A e CA Auto Bank Italia – Sales & Marketing Retail o CA Auto Bank Italia – Marketing  & Sales JLR (in base al prodotto).
+
+Per ogni copertura assicurativa/servizio, abbinato al finanziamento, sul sistema gestionale è impostato uno specifico parametro che ne regola il trattamento in fase di estinzione anticipata, in conformità con la vigente normativa e con quanto sancito dalle relative condizioni di polizza/servizio.
+
+Qualora decadano, le quote di premio a scadere vengono portate in detrazione, al netto della tassa governativa, ove prevista, sulla base di quanto stabilito dalle condizioni di polizza. 
+
+CA Auto Bank recupera direttamente dal fornitore l’importo dei premi rimborsati, attraverso la trasmissione di flussi telematici. 
+
+A titolo esemplificativo e non esaustivo si riporta di seguito un riepilogo del trattamento delle principali tipologie di prodotti assicurativi e/o servizi:
+
+•	prodotti assicurativi a copertura del soggetto (es. CPI, Auto protetta): le coperture decadono al momento dell’estinzione  e le quote di premio non goduto, al netto della tassa governativa ove prevista, vengono portate in riduzione del debito residuo nel conteggio, sulla base dell’algoritmo di calcolo previsto dalle condizioni polizza;
+•	prodotti assicurativi a copertura del veicolo (es. polizze CVT, Gap): le coperture possono essere mantenute su richiesta del cliente, come da condizioni di polizza. Qualora decadano le quote di premio a scadere vengono portate in detrazione, al netto della tassa governativa ove prevista, sulla base di quanto disciplinato dalle condizioni di polizza. Alcune tipologie di estinzione, come ad esempio l’estinzione per nuovo contratto, per furto, rinegoziazione da recupero crediti per decadenza dei termini, prevedono sempre il rimborso delle quote di premio non goduto;
+•	copertura RC Auto: in caso di estinzione volontaria resta in essere fino alla scadenza del certificato assicurativo vigente. In caso di furto e sinistro totale la copertura cessa all’atto dell’estinzione. In caso di estinzione da parte di un Concessionario convenzionato per sostituzione vettura, la copertura decade alla data di vendita del veicolo
+•	servizi aggiuntivi: la marchiatura non viene mai rimborsata in caso di estinzione, stante il legame con il veicolo finanziato; le garanzie estese, invece, sono rimborsabili solo nei casi di furto, incendio e distruzione del veicolo, previa autorizzazione della Compagnia dopo aver verificato che il cliente non abbia già goduto di un rimborso di sinistro: in tal caso il cliente è tenuto a versare l'intero premio rimanente come da condizioni contrattuali.
+
+I testi lettera di accompagnamento al conteggi sono validati da CA Auto Bank Italia – Sales & Marketing Retail – Products & Services Transparency (di seguito “Transparency”) e da CA Auto Bank Italia – Legal Affairs (di seguito “Legal Affairs”).
+
+
+6.2.Estinzione anticipata volontaria 
+
+Il Cliente può richiedere l’estinzione anticipata volontaria mediante una delle seguenti modalità:
+•	richiesta telefonica o scritta indirizzata ai recapiti del Customer Care
+•	funzionalità a disposizione sull’area Clienti del sito web
+
+Alla ricezione della richiesta, l’operatore di Customer Care, seguendo la specifica operativa, elabora il conteggio dal sistema di CRM, inserendo come data di scadenza del conteggio la data della rata in prossima scadenza.
+Il conteggio di estinzione anticipata viene calcolato dal sistema come descritto al par. 6.1 e proposto in un documento da inviare al Cliente, secondo il canale prescelto dal Cliente stesso, accompagnato da un testo contenente le seguenti informazioni:
+
+•	la data di scadenza del conteggio, entro cui deve pervenire il bonifico a saldo;
+•	le coordinate bancarie di CA Auto Bank per effettuare il bonifico;
+•	i servizi e le polizze assicurative che decadono e le relative quote di premio detratte dal debito residuo nel conteggio;
+•	i servizi e le coperture assicurative che restano valide fino alla scadenza indicata sul modulo di adesione;
+•	una nota inserita manualmente dall’operatore di Customer Care per ricordare al Cliente a partire da quale rata a scadere è calcolato il conteggio e/o, in caso di modalità di pagamento Sepa, l’invito a revocare il mandato presso la sua Banca;
+•	la necessità di richiedere un conteggio apposito in caso di furto o sinistro grave occorso al veicolo.
+Sulla lettera viene anche ricordato al Cliente che il conteggio non è vincolante e che qualora decida di non estinguere potrà proseguire con i pagamenti delle rate a scadere.
+Il sistema gestionale, in storia delle azioni, memorizza gli estremi del documento inviato, la modalità e la data di invio. Sulla piattaforma di CRM è tracciata sia la richiesta del Cliente che l’invio effettuato. E’ inoltre possibile, anche successivamente e sino al perfezionamento dell’estinzione, la ristampa della lettera inviata con il conteggio in formato PDF.
+
+6.3.Estinzione anticipata a seguito di furto o sinistro totale
+
+Ove il Cliente comunichi al Customer Care di aver subito il furto o un sinistro che comporta la rottamazione del veicolo oggetto del finanziamento, viene invitato ad attivarsi con la sua Compagnia di Assicurazione per l’apertura del sinistro al fine di ottenere direttamente la liquidazione dell’indennizzo. 
+In alcuni casi il Cliente, pur non essendo tenuto, vincola la polizza furto e incendio a favore di CA Auto Bank con compagnie non convenzionate: in tali casi, la Compagnia assicurativa inoltra a CA Auto Bank Italia - Customer Care - Insurance (di seguito “Insurance”) richiesta riguardo l’ammontare del debito residuo contrattuale. Ricevuta comunicazione del debito residuo e relativa quietanza per la liquidazione dell’indennizzo, la Compagnia dispone il pagamento in favore di CA Auto Bank. 
+Il pagamento ricevuto viene contabilizzato da CA Auto Bank Italia - Credit - Incoming Payments (di seguito “Incoming Payments”), ad estinzione del finanziamento, previa elaborazione da parte di Insurance di un conteggio di estinzione anticipata da furto o sinistro totale, a seconda dell’evento.
+Il conteggio è effettuato sul sistema gestionale tramite apposita funzione e:
+•	non prevede l’applicazione dell’indennizzo di estinzione anticipata 
+•	comporta la decadenza di tutte le coperture assicurative.
+•	Prevede il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo 6.1 Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale
+Per maggiori dettagli in merito alla gestione delle casistiche di furto e sinistro totale si rimanda al documento 13IT.16. Procedura Customer Care Insurance. 
+
+6.4.	Estinzione anticipata a seguito di sinistro CPI (decesso o invalidità totale)
+In presenza di un sinistro CPI per decesso o invalidità totale permanente del soggetto assicurato eventuali la liquidazione avviene direttamente a favore dell’Assicurato o dei suoi eredi, i quali a loro volta possono richiedere il conteggio di estinzione del finanziamento e versare l’importo dovuto a chiusura totale del debito. 
+Il rilascio del conteggio di estinzione è effettuato da Customer Care che, dopo aver accertato che il sinistro CPI sia stato effettivamente accolto e liquidato, procede all’elaborazione del conteggio di estinzione dal sistema gestionale senza applicazione di alcun indennizzo di estinzione anticipata. Il conteggio prevede la decadenza di tutte le coperture assicurative e il rimborso di quota parte delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo “6.1 Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale”.
+Per maggiori dettagli in merito alla gestione dei sinistri CPI si rimanda al documento 13IT.16. Procedura Customer Care Insurance. 
+
+6.5.Estinzione anticipata richiesta da Concessionario Convenzionato per sostituzione vettura con nuovo finanziamento o locazione finanziaria
+Il Cliente che ha in corso una trattativa commerciale per l’acquisto di una nuova vettura con finanziamento o leasing CA Auto Bank, può rivolgersi al Concessionario Convenzionato per il la restituzione del veicolo oggetto del finanziamento e chiedere, per il suo tramite, il conteggio per l’estinzione anticipata del debito.
+Il Convenzionato, su richiesta del Cliente, contatta un numero dedicato del Contact Center di CA Auto Bank, che elabora il conteggio e lo invia al Concessionario tramite e-mail 
+Il Concessionario ha anche a disposizione un tool sul sistema Finweb per richiedere direttamente il conteggio, limitatamente alla sostituzione della vettura, selezionando la pratica di interesse ed indicando la causale di estinzione (sostituzione vettura). Il sistema in automatico predispone il conteggio e lo invia a mezzo email al Concessionario.
+L’operatività del concessionario è monitorata a sistema, al fine di evitare l’elaborazione di calcoli massivi per iniziative commerciali. A tal fine, nel caso in cui ad un cliente corrispondano più contratti, il sistema ne mostra un massimo di cinque, elencati in ordine di anzianità. Sono inoltre esclusi i contratti estinti, le S.p.A. ed i contratti per i quali è già stato richiesto un conteggio, ancora valido, da parte di un altro dealer o dal cliente stesso.
+Il conteggio per sostituzione vettura è elaborato con addebito dell’indennizzo di estinzione anticipata nel rispetto delle disposizioni normative. Il costo di invio comunicazione, invece, non viene applicato.
+Il conteggio prevede il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo 6.1 Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale
+Tale tipologia di estinzione (presupponendo la vendita del veicolo) prevede la detrazione dal debito residuo di tutti i premi assicurativi a scadere in conformità alle condizioni di polizza; restano invece in essere e, pertanto, non detratti i servizi aggiuntivi legati al veicolo.
+Il testo lettera di accompagnamento al conteggio riporta le istruzioni per procedere al perfezionamento dell’estinzione mediante l’addebito sul saldaconto del Concessionario e l’informazione che, con la sottoscrizione del documento ricevuto il Concessionario stesso conferma:
+•	di aver consegnato al Cliente il conteggio
+•	di aver reso espressamente noto al Cliente che la sua firma costituisce riconoscimento della correttezza dell’importo riportato nel conteggio ed accettazione a che tale importo venga addebitato sul “saldaconto” della Concessionaria
+•	di aver preso atto e comunicato al Cliente la decadenza, alla data di estinzione anticipata, di tutti i servizi assicurativi finanziati, qualora presenti (anche se omaggiati), così come indicato nelle relative condizioni generali di assicurazione, ad eccezione dell’eventuale servizio Garanzie Estese (che decadrà in caso di eventuale furto o distruzione totale del veicolo); la polizza RC Auto cesserà alla data di vendita del veicolo;
+•	di voler procedere all’acquisto del veicolo.
+Il sistema gestionale, in storia delle azioni, memorizza gli estremi del documento inviato, la modalità e la data di invio.
+
+
+6.6.Estinzione anticipata in seguito a richiesta di nuova liquidità 
+
+Il Cliente che ha uno o più finanziamenti e/o prestiti personali in corso e necessiti di nuova liquidità, può richiedere l’estinzione del/dei contratto/i in essere e la contestuale erogazione di un nuovo prestito per ottenere nuova liquidità. Per i dettagli si rimanda alla “6IT.9. Procedura Prestiti Personali”.
+Quando il cliente richiede un nuovo prestito per ottenere nuova liquidità e/o consolidare debiti precedentemente contratti (anche con altre finanziarie), contatta il Customer Care o scrive direttamente all’indirizzo di posta elettronica specifico di Prestiti Personali. 
+La trattativa viene gestita da CA Auto Bank Italia - Sales & Marketing Retail - New Banking Products Development – Cross Selling. 
+Al Cliente viene inviata una comunicazione denominata “Lettera di Estinzione” su cui è espressamente riportato che, con l’estinzione anticipata del/dei precedenti finanziamenti CA Auto Bank cessano le coperture assicurative CPI e Auto Protetta, Incendio e furto/ Collision / Kasko / Infortuni Conducente / Gap salvo che il Cliente faccia espressa richiesta di mantenerle attive.
+I servizi Garanzie Estese / Mopar e la Polizza Pneumatici Tyres restano attivi.
+L’indennizzo di estinzione anticipata non viene addebitato e le spese non ricorrenti (upfront) vengono rimborsate secondo le modalità descritte nel paragrafo 6.1 Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale
+
+6.7.Estinzione anticipata a seguito di Decadenza del Beneficio del Termine 
+
+Sulle Condizioni del Contratto alla voce “Decadenza dal beneficio del termine e risoluzione del Contratto di Finanziamento” è specificato che La Società ha facoltà di dichiarare la decadenza dal beneficio del termine e la risoluzione del Contratto di Finanziamento, senza che occorra costituzione in mora o pronuncia giudiziaria, se:
+a) il Cliente non provveda puntualmente al pagamento di almeno due rate del Finanziamento alle scadenze contrattualmente previste;
+b) vi sia stata l’infedele dichiarazione del Cliente o degli eventuali coobbligati o garanti circa i dati e le informazioni forniti; sia aperta una procedura concorsuale a carico del Cliente o degli eventuali coobbligati o garanti;
+d) il Cliente non adempia agli obblighi contrattuali.
+In tali casi Collection può richiedere l’integrale pagamento, da effettuarsi entro 30 (trenta) giorni dalla data della comunicazione di richiesta dell’intero debito residuo del Finanziamento, comprensivo delle rate scadute, delle rate a scadere comprendenti la sola frazione di capitale, degli eventuali interessi di mora e degli eventuali ulteriori oneri previsti.
+In caso di mancato pagamento, a decorrere dalla data di invio della comunicazione di richiesta di pagamento su tale importo dovuto e non pagato potranno essere applicati interessi moratori nella misura stabilita dal contratto. Il mancato o ritardato pagamento delle rate previste dal Contratto di Finanziamento comporterà, da parte della Società, la segnalazione ai Sistemi di Informazioni Creditizie (S.I.C.) delle informazioni rilevanti nel rispetto delle disposizioni di legge e del “Codice di Deontologia e di Buona Condotta” per i Sistemi Informativi gestiti da Soggetti Privati in tema di credito al consumo, affidabilità e puntualità nei pagamenti.
+Per contratti irregolari, è quindi possibile applicare la decadenza del beneficio del termine; in tal modo tutto il credito diviene certo, liquido ed esigibile.  
+Nella diffida al pagamento che viene inviata al Cliente per invitarlo a saldare la posizione debitoria, pena la decadenza del beneficio del termine, è specificato che per effetto della richiamata decadenza, qualora presenti, le polizze assicurative e i servizi assicurativi accessori al finanziamento decadono e restano privi di efficacia.
+L’indennizzo di estinzione anticipata non viene addebitato.
+Il conteggio prevede il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo 6.1 Calcolo automatico del Conteggio di Estinzione di un Contratto Rateale
+ 
+7.Estinzione anticipata totale di contratti leasing
+
+Le condizioni contrattuali, in linea con la normativa vigente, prevedono, all’articolo rubricato come “Rimborso anticipato”, il diritto per i soggetti consumatori di estinguere anticipatamente il contratto di locazione. 
+CA Auto Bank concede tale facoltà anche ai soggetti non consumatori, previa espressa richiesta dell’Utilizzatore.
+La definizione del modello di calcolo è effettuata da FP&A con il supporto di Compliance in particolare con riferimento alle variazioni normative con impatto sul calcolo stesso.
+Per ogni copertura assicurativa/servizio, abbinato alla locazione, sul sistema gestionale è impostato uno specifico parametro che ne regola il trattamento in fase di estinzione anticipata, in conformità con la vigente normativa e con quanto sancito dalle relative condizioni di polizza/servizio. 
+A titolo esemplificativo e non esaustivo si riporta di seguito un riepilogo del trattamento delle principali tipologie di prodotti assicurativi e/o servizi:
+•	prodotti assicurativi a copertura del soggetto (es. CPI, Auto protetta): le coperture decadono al momento dell’estinzione
+•	prodotti assicurativi  a copertura del veicolo (es. polizze CVT, Gap): le coperture decadono al momento dell’estinzione
+•	copertura RC Auto: ove presente, decade al perfezionamento dell’estinzione, ad eccezione del caso di sostituzione vettura, in cui decade alla data del passaggio di proprietà del veicolo o alla scadenza indicata sul relativo tagliando, secondo quanto stabilito nelle relative condizioni generali: l’importo delle quote a scadere del servizio di marchiatura viene addebitato per intero, in quanto il servizio resta attivo sul veicolo. Il servizio garanzie Estese decade solo in caso di furto o distruzione totale del veicolo.
+In relazione alle coperture assicurative/servizi che decadono viene addebitata la quota dei premi goduti che non sono stati ancora imputati nei canoni al netto della tassa governativa, ove prevista.
+CA Auto Bank recupera direttamente dal fornitore l’importo dei premi non addebitati al Cliente, attraverso la trasmissione di flussi telematici. 
+Le decisioni inerenti l’applicazione dell’indennizzo di estinzione anticipata e di tutti gli eventuali costi addebitali sono assunte dal Pricing Internal Committee di CA Auto Bank, sempre nei limiti previsti dalla normativa di riferimento, ed ai cui verbali si rimanda.
+I testi lettera di accompagnamento al conteggi sono validati da Transparency e da Legal Affairs.
+
+7.1. Calcolo automatico del conteggio di estinzione anticipata di un contratto leasing intestato sia a soggetto Consumatore che a soggetto Non Consumatore
+
+Il calcolo dell’estinzione è effettuato attualizzando i canoni futuri, come da piano di ammortamento bene, al Tasso annuo nominale, definito come tasso leasing / 365 * 360.
+L’importo dell’estinzione risulta dalla somma delle seguenti voci:
++ canoni a scadere (solo bene senza servizi) e valore residuo, attualizzati come da piano di ammortamento
++ quote di premio delle polizze assicurative e dei servizi già goduti (esenti IVA).
+All’importo così calcolato vengono sommate le seguenti voci:
++ spese passaggio di proprietà (+ IVA)                                    
++ spese cancellazione vincolo leasing (+IVA) dovute al PRA in caso di riscatto da parte di un soggetto un terzo, Concessionario compreso:
++ prestazione servizio pagamento tassa di possesso (+ IVA)		
++ addebito tassa di possesso (fuori ambito IVA)		
++ imposta provinciale di trascrizione (fuori ambito IVA) dovuta al PRA quando riscatta un terzo (non concessionario)
++ bollo su fattura applicato solo se presenti importi in esenzione e fuori ambito che sommati determinino un importo superiore ad € 77,47				
++ scaduti (ove presenti)
++ interessi di mora su scaduto (ove presenti)
+-	spese non ricorrenti (upfront)
++ indennizzo per estinzione anticipata
+Per i clienti consumatori dal capitale residuo viene detratta anche la quota parte delle spese up front finanziate spese di istruttoria, di rinegoziazione e di subentro calcolata sulla base della curva degli interessi che si ricava dal Piano di Ammortamento. Nel caso in cui il TAN sia pari zero e nel caso di spese upfront non finanziate invece, viene applicato il metodo lineare in funzione della durata del finanziamento.
+L’indennizzo di estinzione anticipata, nei casi previsti, viene calcolato in automatico dal sistema in misura pari a:
+•	l’1% dell’importo rimborsato in anticipo, se la durata residua è superiore ad un anno;
+•	lo 0,5% dell’importo rimborsato in anticipo, se la durata residua è pari od inferiore ad un anno.
+L’indennizzo non supera l’importo degli interessi che l’Utilizzatore avrebbe pagato per la durata residua del Contratto di Leasing e non è richiesto se il rimborso anticipato corrisponde all’intero debito residuo ed è pari o inferiore a 10.000 Euro.
+Eventuali deroghe all’applicazione dell’indennizzo, ove previste, possono essere autorizzate congiuntamente dai responsabili di Customer Care- FP&A e CA Auto Bank Italia – Sales & Marketing Retail o CA Auto Bank Italia – Marketing & Sales JLR (in base al prodotto).
+
+
+7.2.Estinzione anticipata volontaria
+
+L’Utilizzatore può richiedere il conteggio di estinzione anticipata mediante uno dei canali di contatto del Customer Care, indicando il soggetto riscattante, che può essere l’Utilizzatore stesso oppure un soggetto terzo: ad esempio un Concessionario (Convenzionato o Non Convenzionato) o altro soggetto individuato dall’Utilizzatore.
+In base al soggetto riscattante il conteggio varia in funzione:
+•	del diverso costo del passaggio di proprietà
+•	dell’addebito dell’Imposta Provinciale di Trascrizione (IPT), previsto in caso di riscatto da parte di soggetto terzo, escluso Concessionario (in quanto prevista esenzione in caso di "minivoltura")
+•	dell'addebito delle spese per la Cancellazione del Vincolo Leasing (CVL), previsto in caso di riscatto da soggetto terzo, incluso Concessionario 
+Alla ricezione della richiesta l’operatore di Customer Care, seguendo la specifica operativa, elabora il conteggio dal sistema, indicando la tipologia di soggetto riscattante, la causale di estinzione (volontaria da cliente, da terzo, da concessionario) e la data di attualizzazione del conteggio (cinque giorni solari antecedenti il canone in prossima scadenza). 
+Il conteggio di estinzione anticipata viene calcolato dal sistema come descritto al par. 7 e proposto in un documento da inviare al Cliente, secondo il canale da questi prescelto, accompagnato da un testo contenente le seguenti informazioni: 
+•	la data di scadenza del conteggio entro cui deve pervenire il bonifico a saldo;
+•	le istruzione utili per la disposizione del pagamento;
+•	l’elenco dei documenti da produrre per il perfezionamento dell’operazione di riscatto anticipato del veicolo;
+•	i servizi e le polizze assicurative che decadono e le relative quote di premio addebitate
+•	i servizi che restano validi fino alla scadenza indicata sul modulo di adesione;
+•	l’invito a revocare il mandato presso la Banca, in caso di modalità di pagamento Sepa;
+•	la necessità di richiedere un conteggio apposito in caso di furto o sinistro grave occorso al veicolo. 
+Il sistema gestionale, in storia delle azioni, memorizza gli estremi della lettera inviata, la modalità e la data di invio. Sulla piattaforma di CRM è tracciata sia la richiesta del Cliente che l’invio effettuato. E’ inoltre possibile, anche successivamente e sino al perfezionamento dell’estinzione, la ristampa della lettera inviata con il conteggio in formato PDF. 
+
+7.3.Estinzione anticipata richiesta da Concessionario Convenzionato per sostituzione vettura con locazione finanziaria o nuovo finanziamento 
+
+L’Utilizzatore che ha in corso una trattativa commerciale per il finanziamento o la locazione di un nuovo veicolo, può rivolgersi al Concessionario Convenzionato per il ritiro del veicolo oggetto della locazione e chiedere, per il suo tramite, il conteggio per l’estinzione anticipata del debito.
+Il Convenzionato, su richiesta del Cliente, contatta un numero dedicato del Contact Center di CA Auto Bank, che elabora il conteggio e lo invia al Concessionario a mezzo email. 
+Il Concessionario ha anche a disposizione un tool sul sistema Finweb per richiedere direttamente il conteggio, selezionando la pratica di interesse ed indicando la causale di estinzione (=estinzione volontaria da dealer). Il sistema in automatico predispone il conteggio e lo invia a mezzo email al Concessionario.
+L’operatività del concessionario è monitorata a sistema, al fine di evitare l’elaborazione di calcoli massivi per iniziative commerciali. A tal fine, nel caso in cui ad un cliente corrispondano più contratti, il sistema ne mostra un massimo di cinque, elencati in ordine di anzianità. Sono inoltre esclusi i contratti estinti, le S.p.A. ed i contratti per i quali è già stato richiesto un conteggio, ancora valido, da parte di un altro dealer o dal cliente stesso.
+Nel conteggio per nuovo acquisto l’indennizzo di estinzione anticipata, ove previsto, è addebitato nel rispetto delle disposizioni normative.
+La copertura RC Auto decade alla data del passaggio di proprietà del veicolo o alla scadenza indicata sul relativo tagliando, secondo quanto stabilito nelle relative condizioni generali.
+Il conteggio prevede il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo “7.1 Calcolo automatico del conteggio di estinzione anticipata di un contratto leasing intestato sia a soggetto Consumatore che a soggetto Non Consumatore”.
+Il testo lettera di accompagnamento al conteggio riporta le istruzioni per procedere al perfezionamento dell’estinzione mediante invio di bonifico e documenti da parte del Concessionario e l’informazione che, con la sottoscrizione del documento ricevuto, il Concessionario stesso conferma di:
+•	aver consegnato all’Utilizzatore il conteggio, di avergli reso espressamente noto che la sua firma costituisce riconoscimento della correttezza dell’importo per riscatto anticipato riportato nel conteggio ed accettazione a che la Concessionaria proceda al riscatto del veicolo liquidando l’importo a CA Auto Bank
+•	aver preso atto della decadenza, alla data di riscatto anticipato, delle coperture assicurative, così come indicato nelle relative condizioni generali di assicurazione, ad eccezione dell’eventuale servizio Garanzie Estese (che decade in caso di eventuale furto o distruzione totale del veicolo); 
+•	voler procedere al riscatto del veicolo, o ad un nuovo finanziamento, secondo quanto di seguito previsto.                                                                   
+Con la sottoscrizione della lettera, l’Utilizzatore conferma il proprio riconoscimento della correttezza dell’importo per riscatto anticipato riportato nel conteggio ed accetta che Concessionaria proceda al riscatto del veicolo liquidando l’importo a CA Auto Bank.
+Il sistema gestionale, in storia delle azioni, riporta la tracciatura della mail inviata e relativa data di invio.
+
+7.4.Estinzione per fine locazione 
+
+Circa sessanta giorni prima della scadenza del contratto di locazione (=scadenza del valore di riscatto) il sistema predispone in automatico un conteggio per determinare l’importo necessario per il riscatto (conteggio di estinzione per fine locazione) e lo invia all’Utilizzatore mediante una lettera (avviso riscatto fine locazione) contenente le indicazioni necessarie per la chiusura del contratto. 
+L’invio della predetta comunicazione è tracciato sul sistema gestionale nella transazione Storia delle Azioni.
+Il conteggio per fine locazione determina l’importo da versare per il riscatto del veicolo come somma delle seguenti voci (sia per soggetti Consumatori che Non consumatori):
++ valore residuo (+IVA)
++ spese passaggio di proprietà (+IVA)				
++ spese cancellazione vincolo leasing (+IVA) dovuta al PRA nel caso in cui riscatti un terzo, concessionario compreso			
++ prestazione servizio pagamento tassa di possesso (+ IVA)		
++ addebito tassa di possesso (fuori ambito IVA)		
++ imposta provinciale di trascrizione (fuori ambito IVA) dovuta al PRA nel caso in cui riscatti un terzo (non concessionario)
+ + bollo su fattura applicato solo se presenti importi in esenzione e fuori ambito che sommati determinino un importo superiore ad € 77,47				
+ + scaduto (ove presente)
+ + interessi di mora su scaduto (ove presente)
+Non è previsto l’addebito di quote relative a coperture assicurative e/o servizi in quanto decadute/i per scadenza naturale, né dell’indennizzo di estinzione anticipata.
+Le decisioni inerenti l’applicazione dell’indennizzo di estinzione anticipata e di tutti gli eventuali costi addebitali sono assunte dal Pricing Internal Committee di CA Auto Bank, sempre nel rispetto della normativa di riferimento, ai cui verbali si rimanda.
+In taluni casi si rende necessario aggiornare il conteggio elaborato in automatico dal sistema, ad esempio qualora il riscatto sia effettuato da un soggetto diverso dall’Utilizzatore (un Concessionario o altro soggetto terzo). 
+In tale evenienza l’operatore di Customer Care, seguendo la specifica operativa, predispone il conteggio dal sistema di CRM, inserendo data di attualizzazione (ovvero la data entro cui si richiede il pagamento da parte del soggetto riscattante) pari alla scadenza del valore di riscatto ed indicando la tipologia di soggetto riscattante (Concessionario o Terzo). 
+Il conteggio viene calcolato dal sistema come precedentemente descritto e proposto in un documento da inviare al Cliente  /Concessionario Convenzionato secondo il canale prescelto.
+Il sistema gestionale, in Storia delle azioni, memorizza gli estremi del documento inviato, la modalità e la data di invio. Sulla piattaforma di CRM è tracciata sia la richiesta del Cliente che l’invio effettuato. E’ inoltre possibile, anche successivamente e sino al perfezionamento dell’estinzione, la ristampa della lettera inviata con il conteggio in formato PDF.
+
+7.5.Estinzione a seguito di furto o sinistro totale
+
+Le condizioni contrattuali all’articolo “Perdita ed Incendio” disciplinano la chiusura della locazione a seguito di furto e sinistro totale che comporta la rottamazione del veicolo.
+Il calcolo del conteggio a seguito di furto, che il sistema gestionale genera, comporta l’attualizzazione dei canoni futuri, come da piano di ammortamento bene, al Tasso Annuo Nominale, definito come tasso leasing / 365 * 360.
+L’importo dell’estinzione risulta dalla somma delle seguenti voci:
++ totale dell’imponibile dei canoni (fuori ambito IVA articolo 78 DPR 633/72) attualizzati a partire dalla alla data del furto più eventuale valore residuo; 
++ spese gestione chiusura furto più imposta IVA;
++ quote godute dei servizi assicurativi presenti in pratica e rimaste a carico dell’utilizzatore (esenti IVA articolo 10/1/2/-12 DPR.633/72);
++ le spese relative al recupero dell’imposta di bollo dovuta sull’emissione della successiva fattura per gli importi fuori ambito IVA;
++ eventuale tassa di possesso dovuta dall’utilizzatore (fuori ambito IVA articolo 78 DPR 633/72).  
+-	Spese upfront
+Il totale delle voci sopra indicate determina il totale della fattura per risoluzione contrattuale da furto. 
+Sommando al totale fattura gli eventuali canoni insoluti con i relativi interessi di mora e l’importo restante relativo ai servizi e alle coperture assicurative non fatturate da CA Auto Bank (ove presenti), si ottiene l’importo totale dovuto necessario per la chiusura del contratto. 
+Non è addebitato alcun indennizzo di estinzione anticipata.
+Anche in caso di sinistro totale (con danni che compromettono l’uso e la sicurezza del veicolo e che ne comportano la rottamazione), all’apertura del sinistro il sistema genera un conteggio di estinzione, determinato dalla somma delle seguenti voci:
++ totale dell’imponibile dei canoni (fuori ambito IVA articolo 78 DPR 633/72) attualizzati a partire dalla data del sinistro totale più eventuale valore residuo;
++ 50 € di fatturazione del relitto più imposta IVA corrente;
++ quote godute dei servizi assicurativi presenti in pratica e rimaste a carico dell’utilizzatore (esenti IVA articolo 10/1/2/-12 DPR.633/72A);
++ spese relative al recupero dell’imposta di bollo dovuta sull’emissione della successiva fattura per gli importi fuori ambito IVA;
++ eventuale tassa di possesso dovuta dall’utilizzatore (fuori ambito IVA articolo 78 DPR 633/72);
+- spese upfront 
+Nel conteggio non è previsto l’addebito dell’indennizzo per estinzione anticipata.
+Il conteggio di risoluzione contrattuale da sinistro totale resta valido sul sistema gestionale per 6 mesi. In caso di gestione superiore a questa tempistica il conteggio deve essere rivalidato da Insurance tramite un’apposita transazione del sistema gestionale (gli importi non vengono attualizzati).  
+Nel caso in cui l’Utilizzatore decida di non rottamare ma di acquisire la proprietà del relitto è necessario che richieda il conteggio di chiusura del contratto. Il conteggio in tal caso sarà elaborato come estinzione volontaria.
+Il conteggio per Furto e per sinistro grave prevedono entrambi il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo “7.1 Calcolo automatico del conteggio di estinzione anticipata di un contratto leasing intestato sia a soggetto Consumatore che a soggetto Non Consumatore”.
+Per maggiori dettagli in merito alla gestione delle casistiche di furto e sinistro totale si rimanda al documento 13IT.16. Procedura Customer Care Insurance. 
+
+7.6.Estinzione per riconsegna anticipata del veicolo
+
+E’ possibile che l’Utilizzatore, non potendo far fronte ai pagamenti per sopraggiunte difficoltà economiche, chieda di restituire anticipatamente il veicolo oggetto del contratto di locazione.
+Rientrata in possesso del veicolo, tramite un Depositario incaricato, CA Auto Bank dispone la vendita del bene.
+L’operatore di CA Auto Bank Italia - Credit - Litigations & NPL - Contract Resolution (di seguito Contract Resolution) richiede il blocco della fatturazione alla data del verbale di riconsegna o dello stato d’uso qualora la gestione della riconsegna sia avvenuta attraverso il processo delle Risoluzioni Consensuali. 
+L’operatore inserisce gli importi necessari ad emettere la fattura di vendita verso il terzo.
+Viene effettuato in automatico un conteggio sul Sistema Gestionale (Conteggio contenzioso).
+Tale conteggio prevede l’attualizzazione del debito residuo, lato bene, al TAN contrattuale e con addebito delle quote servizi secondo le stesse regole del conteggio per furto o sinistro grave.
+Nel conteggio viene evidenziato l’importo degli eventuali canoni scaduti e della partita risarcimento danni, che attualizza i canoni non fatturati ed il valore di riscatto, al netto dell’imponibile realizzato dalla vendita. Dalla somma dei canoni scaduti e del risarcimento danni si determina il debito che viene richiesto all’ex Utilizzatore. Qualora dalle operazioni di rivendita dovesse derivare un saldo a favore del Cliente, Contract Resolution si attiva per il rimborso verso il Cliente, al netto delle spese sostenute per il trasporto, la perizia e la custodia del bene. 
+
+
+7.7.Estinzione anticipata per contenzioso
+ 
+L’estinzione anticipata da contenzioso è disciplinata nelle condizioni generali di locazione alla voce “Decadenza dal beneficio del termine e Clausola Risolutiva espressa”.
+In presenza di canoni scaduti e di diffida al pagamento su contratto attivo l’operatore di CA Auto Bank Italia - Credit - Litigations & NPL (di seguito Litigation & NPL) richiede a Incoming Payments il blocco della fatturazione alla data dell’ultimo pagamento insoluto e sollecitato nella diffida, maggiorato di un giorno (per consentire al sistema lo storno dei canoni dalla scadenza successiva). 
+In questa fase può accadere che l’Utilizzatore:
+1. si impegni a saldare lo scaduto in unica soluzione o mediante apposito piano di rientro
+2. chieda di riscattare anticipatamente il veicolo
+3. chieda di riconsegnare il veicolo
+4. non riconsegni il veicolo e venga quindi eventualmente denunciato per appropriazione indebita. 
+Nell’ipotesi di cui al punto 2, l’operatore di Litigations & NPL elabora il conteggio di estinzione sul sistema gestionale, con causale “estinzione per contenzioso”. 
+Nell’ipotesi di cui al punto 3, CA Auto Bank provvede a rivendere il bene, previa emissione di una fattura di vendita verso il terzo acquirente.
+A seguito di tale operazione il sistema in automatico genera il conteggio visibile sul sistema gestionale che prevede l’attualizzazione del debito residuo, lato bene, al TAN contrattuale e l’addebito delle quote servizi secondo le stesse regole del conteggio per furto o sinistro grave.
+Nel conteggio viene evidenziato l’importo dei canoni scaduti e della partita risarcimento danni, che attualizza i canoni non fatturati ed il valore di riscatto, al netto dell’imponibile realizzato dalla vendita. Dalla somma dei canoni scaduti e del risarcimento danni si determina l’eventuale debito che viene richiesto dall’operatore di Litigations & NPL all’ex Utilizzatore.
+Qualora dalle operazioni di rivendita dovesse derivare un saldo a favore del Cliente, Contract Resolution si attiva per il rimborso verso il Cliente, al netto delle spese sostenute per il trasporto, la perizia e la custodia del bene. 
+Nel caso in cui il veicolo non venga riconsegnato (ipotesi 4) dall’Utilizzatore neanche a seguito di querela per appropriazione indebita e lo scaduto non venga saldato, Litigations & NPL provvede ad annotare al Pubblico Registro Automobilistico la perdita di possesso dello stesso, che retroagisce alla data della denuncia-querela.
+Sul sistema viene registrata l’operazione “Dismissioni per radiazione” e il cespite viene radiato.
+Il sistema in automatico genera il conteggio che prevede l’attualizzazione del debito residuo, lato bene, al TAN contrattuale e l’addebito delle quote servizi secondo le stesse regole del conteggio per furto o sinistro grave.
+Il conteggio prevede il rimborso delle spese non ricorrenti (upfront) secondo le modalità descritte nel paragrafo “7.1 Calcolo automatico del conteggio di estinzione anticipata di un contratto leasing intestato sia a soggetto Consumatore che a soggetto Non Consumatore”.
+Nel conteggio viene evidenziato l’importo dei canoni scaduti e della partita risarcimento danni, che attualizza i canoni non fatturati ed il valore di riscatto. 
+
+8.	Estinzione anticipata parziale 
+
+8.1.	Estinzione anticipata parziale di un finanziamento rateale
+
+La modulistica contrattuale regola l’estinzione parziale del finanziamento rateale all’articolo rubricato “Rimborso Anticipato”. 
+Alla ricezione della richiesta (scritta o telefonica) proveniente dal Cliente (sia Consumatore che Non Consumatore), l’operatore di Customer Care, seguendo la specifica operativa, elabora il conteggio dal sistema di CRM, inserendo l’importo che il Cliente intende anticipare.
+Il conteggio viene effettuato in automatico dal sistema gestionale che ricalcola il piano di ammortamento sia del bene che dei servizi assicurativi e detrae gli interessi proporzionalmente all’importo anticipato. 
+La definizione del modello di calcolo è effettuata da FP&A con il supporto di Compliance in particolare con riferimento alle variazioni normative con impatto sul calcolo stesso.
+Con l’estinzione parziale tutte le polizze assicurative e i servizi restano validi.
+In caso di presenza di copertura CPI oggetto di recesso, oppure in caso di presenza di sinistro per decesso o invalidità permanente già chiuso con liquidazione dell’indennizzo, il sistema non conteggia le quote da rimborsare.
+Le decisioni inerenti l’applicazione dell’indennizzo di estinzione anticipata e di tutti gli eventuali costi addebitali sono assunte dal Pricing Internal Committee di CA Auto Bank, sempre nel rispetto della normativa di riferimento, ai cui verbali si rimanda.
+Le spese di invio comunicazione sono addebitate esclusivamente nel caso di mancato perfezionamento dell’estinzione parziale.
+L’indennizzo di estinzione anticipata parziale viene calcolato in automatico dal sistema, indipendentemente dalla fattispecie clientelare (Consumatori e Non Consumatori), in misura pari a:
+•	l’1% dell’importo rimborsato in anticipo (calcolato sul debito residuo al netto di interessi, spese di incasso, servizi e premi assicurativi non goduti) se la durata residua del finanziamento è > 12 mesi
+•	lo 0,5% dell’importo rimborsato in anticipo se la vita residua è <=12 mesi.
+L’indennizzo non supera l’importo degli interessi che il Cliente avrebbe pagato per la durata residua del finanziamento e non viene applicato se l’estinzione anticipata:
+•	è effettuata in esecuzione di un contratto di assicurazione stipulata a garanzia del credito; 
+•	corrisponde all’intero debito residuo ed è pari o inferiore a 10.000 Euro.
+L’operazione di estinzione parziale comporta la riduzione dell’importo della rata; la durata del finanziamento invece non varia, così come le scadenze del piano di rimborso che restano quelle contrattualmente previste. 
+Il conteggio viene proposto in un documento da inviare al Cliente, secondo il canale da questi prescelto, accompagnato da un testo contenente informazioni sugli indicatori finanziari del contratto (al perfezionamento dell’estinzione parziale, il TAN resta invariato, il TAEG invece viene ricalcolato in base al nuovo piano di ammortamento) e le indicazioni per la disposizione del pagamento.
+La lettera inviata con il conteggio indica anche l’importo della rata e la data dalla quale avverrà la variazione.
+Il testo lettera di accompagnamento al conteggio è validato da Transparency e Legal Affairs.
+Il sistema gestionale, in storia delle azioni, memorizza gli estremi della comunicazione inviata, la modalità e la data di invio. Sulla piattaforma di CRM è tracciata sia la richiesta del Cliente che l’invio effettuato. E’ inoltre possibile, anche successivamente e sino al perfezionamento dell’estinzione, la ristampa del conteggio.
+
+8.2.	Estinzione anticipata parziale di un contratto leasing 
+In ottemperanza a quanto previsto dall’art. 125 sexies del TUB, l’estinzione parziale è prevista solo per i leasing a consumatori.
+Alla ricezione della richiesta da parte dell’Utilizzatore Consumatore, Customer Care richiede a FP&A l’elaborazione dell’apposito calcolo da fornire all’Utilizzatore.
+Le decisioni inerenti l’applicazione dell’indennizzo di estinzione anticipata e di tutti gli eventuali costi addebitali sono assunte dal Pricing Internal Committee di CA Auto Bank, sempre nei limiti previsti dalla normativa di riferimento ed ai cui verbali si rimanda.
+
+9.	Surroga
+
+In conformità con la vigente normativa, il contratto di finanziamento rateale sancisce per i clienti consumatori il diritto alla portabilità del finanziamento stesso, senza il pagamento di nessun costo aggiuntivo (cosiddetta surrogazione ex art. 120-quater T.U.B. e ex art. 1202 codice civile).
+La surroga, che si configura come un’estinzione anticipata del finanziamento/prestito da parte della banca surrogante su mandato del cliente, senza addebito di penali di estinzione anticipata:
+•	si applica ai contratti di finanziamento rateale e ai prestiti personali sottoscritti da consumatori o microimprese ;
+•	non si applica ai contratti leasing, ai sensi del comma 9, lettera b) dell’art. 120 quater TUB.
+La richiesta di surroga perviene al Customer Care in forma scritta ed esplicita inequivocabilmente che l’estinzione del finanziamento/prestito avverrà per surroga. 
+Alla ricezione, Customer Care:
+•	verifica che il documento di richiesta risulti conforme (apposito form della banca surrogante o, in alternativa, richiesta scritta riportante gli estremi della normativa di riferimento)
+•	elabora il conteggio di estinzione anticipata dal sistema gestionale e lo invia tramite l’applicativo di CRM ai recapiti forniti dal richiedente.
+Il conteggio non include l’indennizzo di estinzione anticipata e non genera costi di invio comunicazione a carico del cliente e/o della banca surrogante.  La definizione del modello di calcolo è effettuata da FP&A con il supporto di Compliance in particolare con riferimento alle variazioni normative con impatto sul calcolo stesso. Il trattamento dei servizi e delle coperture assicurative accessorie avviene in conformità con la vigente normativa e con quanto sancito dalle relative condizioni di polizza/servizio. Per alcune polizze assicurative, in caso di estinzione anticipata, è prevista la decadenza della copertura e le eventuali rate di premi assicurativi a scadere possono essere detratte dal debito residuo secondo quanto previsto dalle condizioni delle relative coperture assicurative. In alternativa, il Cliente può richiedere la prosecuzione delle polizze, se previsto dalle condizioni delle coperture assicurative.
+Nel conteggio sono indicati, oltre all’importo da versare, gli estremi per disporre il bonifico e la data di validità. 
+Il testo standard della lettera di conteggio per surroga è validato da Transparency e Legal Affairs.
+
+10.	   Incasso estinzione anticipata (totale e parziale) e surroga
+
+Nei paragrafi a seguire sono descritte le diverse modalità di gestione degli incassi propedeutici all’estinzione totale o parziale e alla surroga. Per approfondimenti di dettaglio sugli aspetti tecnici, si rimanda ai manuali operativi degli enti interessati.
+
+10.1.	Incasso di estinzione totale di contratto rateale su saldaconto di un Convenzionato
+
+L’addebito su saldaconto del Concessionario Convenzionato è previsto per i casi di estinzione anticipata di finanziamenti rateali a fronte di un nuovo acquisto con finanziamento o leasing. 
+Al ricevimento dell’autorizzazione da parte del Convenzionato, con lettera di conteggio debitamente sottoscritta sia dal Concessionario che dal Cliente, l’operatore di Customer Care procede all’addebito sul saldaconto, tramite specifica funzione sul sistema gestionale.
+Effettuata l’operazione, Customer Care ne dà comunicazione a CA Auto Bank Italia-Retail & Corporate Underwriting-Retail Underwriting (di seguito RCU).
+
+10.2.	Incasso di estinzione totale di contratto rateale su ricevimento di bonifico/bollettino postale/assegno
+
+Al ricevimento del titolo di pagamento l’operatore Incoming Payments, prima di procedere alla contabilizzazione verifica il mittente.
+
+10.2.1.	Bonifico da cliente 
+
+Al ricevimento di un bonifico con la causale estinzione, Incoming Payments verifica sul sistema gestionale se risulta un conteggio di estinzione valido o comunque non scaduto da oltre 10 giorni.  
+
+Il termine di 10 giorni previsto come franchigia è determinato a sistema tramite una variabile che consente di inserire un parametro per l’incasso oltre la scadenza del conteggio.
+Prima di effettuare l’incasso Incoming Payments verifica inoltre che l’importo ricevuto sia sufficiente per contabilizzare l’estinzione; in caso contrario chiede a Customer Care di contattare il Cliente per reperire le informazioni necessarie alla eventuale conclusione dell’operazione, nonché il saldo del debito restante.  
+
+10.2.2.	Bonifico da Compagnia Assicurativa
+
+Qualora il bonifico ricevuto da CA Auto Bank sia stato effettuato da una Compagnia di Assicurazione e non sia presente un conteggio valido già inviato al Cliente in precedenza, prima di effettuare l’incasso, Incoming Payments chiede a Insurance di contattare il Cliente per chiedere istruzioni su come utilizzare l’importo ricevuto in merito all’eventuale estinzione del finanziamento. 
+
+Qualora il Cliente dia disposizione di estinguere anticipatamente il finanziamento, Insurance invia il conteggio e chiede a Incoming Payments di effettuare l’incasso. 
+
+10.2.3.	Bonifico da terzi
+
+Qualora Incoming Payments riceva un bonifico da parte di un terzo e non sia presente un conteggio valido già inviato al Cliente in precedenza, non incassa e storna il bonifico che rientra sul conto emittente.
+
+10.3.	Incasso di bonifico per estinzione anticipata totale di contratto leasing 
+
+Per contabilizzare un’operazione di estinzione anticipata Customer Care verifica: 
+•	la presenza di tutta la documentazione necessaria al riscatto
+•	la ricezione del bonifico di pagamento disposto dal soggetto riscattante. Il pagamento avviene sempre a mezzo bonifico bancario, anche eventualmente da parte del concessionario.
+Effettuate le verifiche di cui sopra, l’operatore procede con la chiusura del contratto e l’emissione a favore del soggetto riscattante della fattura di vendita, la quale viene inviata in automatico dal sistema con il batch notturno.
+Di seguito richiede a Incoming Payments di abbinare alla fattura di vendita il bonifico ricevuto ed il giorno successivo all’abbinamento si accerta che il saldo del contratto sia regolarmente a zero. 
+Per maggiori dettagli si rimanda a quanto descritto nel documento “13.IT.11 Procedura Customer Care”.
+
+10.4.	Incasso di estinzione totale di un contratto leasing a seguito di furto o sinistro totale
+
+Qualora a seguito di un furto o sinistro totale del veicolo dato in locazione, Incoming Payments riceva il bonifico dalla Compagnia di Assicurazioni a titolo di indennizzo per il furto, effettua l’incasso. 
+In automatico, la pratica viene chiusa e la fattura di riscatto emessa.
+•	Se l’indennizzo assicurativo è insufficiente a chiudere la posizione, Insurance richiede all’Utilizzatore il saldo dell’importo mancante. 
+•	Se invece l’indennizzo risulta eccedente, Insurance dispone il rimborso a favore dell’Utilizzatore.
+
+10.5.	Incasso di estinzione parziale di contratto rateale 
+Al ricevimento della disposizione di pagamento l’operatore di Incoming Payments, se presente conteggio valido, procede alla contabilizzazione, effettuando l’incasso. 
+Se il conteggio di estinzione parziale risulta scaduto, occorre registrare un conteggio aggiornato: con la modifica della scadenza del conteggio anche l’importo della rata e la decorrenza del nuovo piano di rateazione variano; occorre, pertanto, informare il Cliente prima di procedere all’incasso.
+A seguito di segnalazione di Incoming Payments, Customer Care contatta il Cliente, fornisce le dovute informazioni ed invia il conteggio aggiornato (preferibilmente via e-mail). 
+Non è possibile addebitare estinzioni parziali sul saldaconto dei Concessionari.
+Effettuato l’incasso, non è possibile effettuare lo storno di un’estinzione parziale. 
+
+10.6.	Incasso di estinzione parziale di contratto leasing 
+
+Alla ricezione del pagamento da parte dell’Utilizzatore, l’incasso viene registrato da Incoming Payments mediante apposito intervento a sistema che consenta la registrazione contabile e l’emissione del relativo documento fiscale.
+
+10.7.	Incasso di estinzione per surroga
+
+Al ricevimento del bonifico da parte della Banca surrogante, Incoming Payments verifica sul sistema gestionale se risulta un conteggio di estinzione valido o comunque non scaduto da oltre 10 giorni.  
+Prima di effettuare l’incasso Incoming Payments verifica inoltre che l’importo ricevuto sia pari al valore dell’importo dell’estinzione per procedere con la contabilizzazione; in caso contrario, chiede a Customer Care di contattare il Cliente/la Banca surrogante per reperire le informazioni necessarie alla eventuale conclusione dell’operazione, nonché il saldo del debito restante.
+
+11.	   Storno di estinzione totale di contratto rateale
+
+Customer Care, Insurance o CA Auto Bank Italia – Legal Affairs - Ufficio Reclami (di seguito Ufficio Reclami) può richiedere a Incoming Payments lo storno di un’estinzione anticipata totale per le seguenti motivazioni:
+•	correggere eventuali errori di registrazione dell’incasso (occorre stornare l’estinzione e ripristinarla  nella stessa giornata);
+•	rimborsare quote assicurative non godute nella circostanza in cui il cliente decida di non continuare a mantenere la/e copertura/e assicurative, modificando la precedente scelta (occorre stornare l’estinzione e  ripristinarla nella stessa giornata);
+•	ripristinare il contratto: il cliente chiede di continuare a pagare le rate mensili. 
+
+Incoming Payments esegue l’operazione a sistema e ne dà comunicazione all’ente richiedente.
+
+12.	   Recesso di un contratto di finanziamento rateale
+
+12.1.	Diritto di recesso  
+
+Le condizioni contrattuali sanciscono il diritto per il Cliente di recedere dal contratto di finanziamento, facendone espressa richiesta.
+Il diritto di recesso è disciplinato dalle condizioni generali per i finanziamenti finalizzati e per i prestiti personali alla voce “Diritto di Recesso”.
+Il Cliente può recedere dal Contratto di Finanziamento, entro 14 (quattordici) giorni dalla sua conclusione, inviando una lettera raccomandata A.R al Customer Care di CA Auto Bank. Tale comunicazione deve essere inviata per conoscenza anche all’EDV di riferimento. 
+
+In caso di recesso successivo all’erogazione del Finanziamento, dovranno essere restituite alla Società, non oltre 30 giorni dalla comunicazione della data di recesso:
+•	le somme versate a favore del Cliente;
+•	gli interessi maturati fino al momento della restituzione, calcolati secondo quanto indicato dal Contratto di Finanziamento;
+•	le somme non ripetibili corrisposte alla pubblica amministrazione (es. bolli contrattuali, tasse governative).
+Il recesso dal contratto si estenderà automaticamente ai servizi abbinati al Veicolo e/o al Contratto di Finanziamento (ivi incluse, polizze a garanzia del credito, polizze Furto /Incendio, polizze RCA, ecc.).
+
+12.2.	Recesso di un finanziamento rateale finalizzato all’acquisto dell’auto
+
+Customer Care, al ricevimento della richiesta scritta, contatta il Cliente indicandogli la procedura per finalizzare il recesso; il Cliente viene invitato in primo luogo a concordare con il concessionario le modalità di rimborso dell’importo del finanziamento ricevuto in fase di liquidazione (se il contratto è già stato liquidato). L’importo del finanziamento è stato versato interamente da CA Auto Bank alla Concessionaria, su mandato preciso del Cliente (vedasi condizioni contrattuali Mandato del Cliente e Servizi).   
+N.B.: il Cliente ha diritto di recedere dal contratto di finanziamento, senza che ciò implichi la rinuncia all’acquisto del bene; infatti se il cliente intende rinunciare anche all’acquisto della vettura deve rispettare le specifiche condizioni previste sull’Ordine di Acquisto.
+Concordata la modalità di rimborso con il Cliente, se il contratto è già stato attivato, il Convenzionato deve richiedere lo storno dello stesso con conseguente rimborso dell’importo erogato, entro il termine di 14 giorni dalla data di richiesta di recesso. 
+Al ricevimento della richiesta scritta da parte dell’EDV, RCU procede con lo storno del contratto.
+Qualora il Convenzionato non adempia a richiedere lo storno del contratto secondo le modalità sopra descritte, Customer Care chiede lo storno del contratto di finanziamento a RCU e l’addebito dell’importo dovuto sul saldaconto, informando il Regional Manager e CA Auto Bank Italia - Dealer Financing della criticità sopravvenuta.
+
+Contestualmente allo storno del finanziamento il sistema gestionale invia comunicazione al cliente a conferma dell’operazione. Viene inoltre emessa a suo favore una nota credito a compensazione della fattura (ove emessa).
+
+Nel caso di un contratto non ancora liquidato (stato 30 e 34) il Convenzionato provvede al ritiro del contratto a sistema entro 14 giorni dalla data della richiesta di recesso da parte del Cliente. 
+Customer Care può richiedere a RCU l’annullamento a sistema del contratto in caso di opposizione da parte del Convenzionato.
+Customer Care, qualora il Cliente lo richieda invia una liberatoria tramite canale postalizzato dal sistema gestionale nella quale oltre a dare conferma dell’annullamento della richiesta del finanziamento si ricorda al Cliente che i suoi dati resteranno visibili presso i SIC per trenta giorni dalla data dell’ultimo aggiornamento come previsto dal Codice di deontologia. 
+In casi particolari di nullità del contratto per mancata consegna del bene o di inadempimento del Convenzionato o vizi vettura accertati, Customer Care può richiedere d’ufficio lo storno del contratto di finanziamento ed il rimborso del netto ricavo al Convenzionato, anche se trascorsi i 14 giorni. 
+Il consumatore ai sensi dell’art. 125 quinquies del TUB, dopo aver inutilmente effettuato la costituzione in mora del fornitore, ha diritto alla risoluzione del contratto di credito. La risoluzione del contratto di credito comporta l'obbligo del finanziatore di rimborsare al consumatore le rate già pagate, nonché ogni altro onere eventualmente applicato. La risoluzione del contratto di credito non comporta l'obbligo del consumatore di rimborsare al finanziatore l'importo che sia stato già versato al fornitore dei beni o dei servizi. Il finanziatore ha il diritto di ripetere detto importo nei confronti del fornitore stesso. 
+
+12.3.	Recesso di un prestito personale 
+
+Il Cliente può recedere dal Contratto di Prestito Personale, entro 14 (quattordici) giorni dalla sua conclusione, inviando una lettera raccomandata A.R al Customer Care di CA Auto Bank. 
+Il diritto di recesso si applica anche in caso di commercializzazione di servizi a distanza, entro il medesimo termine di 14 giorni dalla conclusione del contratto.
+Customer Care informa l’Ente che ha attivato il prestito personale. 
+Il recesso si estende automaticamente alle polizze e ai servizi accessori connessi al contratto di Prestito Personale.
+La richiesta di recesso viene gestita da Customer Care che richiede al Cliente la restituzione dell’importo netto finanziato aumentato del solo costo dei bolli, tramite bonifico da inviare a CA Auto Bank.
+Il bonifico deve essere eseguito entro 30 giorni dalla richiesta di recesso; qualora non venga effettuato nei termini Customer Care provvede ad avvertire il Cliente che a causa della sua inadempienza non sarà possibile dar seguito alla sua richiesta. 
+Customer Care, qualora il Cliente lo richieda invia una liberatoria tramite canale postalizzato dal sistema gestionale nella quale oltre a dare conferma dell’annullamento della richiesta del finanziamento si ricorda al Cliente che i suoi dati resteranno visibili presso i SIC per trenta giorni dalla data dell’ultimo aggiornamento come previsto dal Codice di deontologia.  
+
+13.	   Recesso di un contratto di Leasing
+
+Il recesso per rinuncia volontaria da parte dell’utilizzatore non è previsto secondo la normativa vigente, né per il soggetto non consumatore, né per il soggetto consumatore, ai sensi dell’art. 122 comma 3 del TUB. 
+L’articolo 125 quinquies del TUB consente, invece, solo in caso di inadempimento del fornitore, il recesso di un contratto leasing a consumatori (titolari di contratti di locazione senza partita Iva - persone fisiche che agiscono per scopi estranei all’attività imprenditoriale, commerciale, artigianale o professionale eventualmente svolta). 
+Il consumatore, dopo aver inutilmente effettuato la costituzione in mora del fornitore, può chiedere al finanziatore di agire per la risoluzione del contratto. La richiesta al fornitore determina la sospensione del pagamento dei canoni. La risoluzione del contratto di fornitura determina la risoluzione di diritto, senza penalità e oneri, del contratto di locazione finanziaria.
+La risoluzione del contratto di credito comporta l'obbligo del finanziatore di rimborsare al consumatore le rate già pagate, nonché ogni altro onere eventualmente applicato. La risoluzione del contratto di credito non comporta l'obbligo del consumatore di rimborsare al finanziatore l'importo che sia stato già versato al fornitore dei beni o dei servizi. Il finanziatore ha il diritto di ripetere detto importo nei confronti del fornitore stesso. 
+
+14.	   Controlli interni 
+
+Il presente capitolo descrive i controlli 2.1 in capo a FP&A istituiti con l’obiettivo di verificare la correttezza dei conteggi di estinzione anticipata.
+I controlli vengono effettuati a seguito del rilascio di interventi sul sistema che effettua i conteggi di estinzione anticipata, sia totale che parziale.
+FP&A provvede a effettuare test sulla correttezza dei calcoli prodotti dal sistema. 
+Qualora non vi fossero interventi sui conteggi, l'ente provvede almeno semestralmente a effettuare i test campionari sui conteggi stessi, ed archiviarne opportunamente le evidenze.
+L’elenco dei contratti oggetto di conteggio di estinzione può essere reperito attraverso specifiche inquiries a sistema da parte di CA Auto Bank Italia – ICT o fornito da Customer Care su richiesta, affinché FP&A effettui le verifiche di correttezza.
+I controlli effettuati sono formalizzati in un’apposita scheda che raccoglie i dati dei casi verificati e attribuisce il relativo rating.
+In caso di anomalie relative al calcolo di estinzione, anche comprensivo dei rimborsi assicurativi e dell’applicazione dell’indennizzo, CAAB Italia-Finance-FP&A provvede ad aprire apposita richiesta di intervento (UT). Nell’eventualità in cui vengano riscontrate anomalie differenti da quelle precedentemente elencate, è cura di Customer Care valutare l’apertura dell’intervento a sistema con il supporto di FP&A.
+
+15.	   Archivio
+Le richieste provenienti dai Clienti e/o dai Concessionari Convenzionati relativamente all’estinzione anticipata (totale e parziale) dei finanziamenti/leasing, alla surroga e all’esercizio del diritto di recesso sono archiviate sull’applicativo di CRM. Sullo stesso applicativo sono disponibili anche i conteggi e le comunicazioni inviate a mezzo email, fax, sms. 
+La tracciatura delle lettere inviate dal sistema gestionale mediante il servizio postale è rilevabile dallo stesso sistema gestionale. 
+I template degli standard di risposta in uso presso il Customer Care sono disponibili nel percorso di rete aziendale in apposito folder.
+La scheda dei controlli 2.1 è pubblicata nel repository aziendale all’interno della cartella di FP&A.
