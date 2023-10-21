@@ -1,5 +1,5 @@
-ESTINZIONE ANTICIPATA A RICHIESTA DELL'UTILIZZATORE
-L’Utilizzatore può rimborsare anticipatamente l’importo totale dovuto al Concedente facendone espressa richiesta. Il Concedente determina il capitale residuo
+Foglio informativo - Leasing
+ESTINZIONE ANTICIPATA A RICHIESTA DELL'UTILIZZATORE: L’Utilizzatore può rimborsare anticipatamente l’importo totale dovuto al Concedente facendone espressa richiesta. Il Concedente determina il capitale residuo
 attualizzando i canoni a scadere al tasso annuo nominale indicato nel frontespizio del Contratto di Leasing e detraendo le spese di incasso dei canoni futuri ed eventuali
 ratei di premi assicurativi a scadere, secondo quanto previsto dalle condizioni delle relative coperture assicurative. L’Utilizzatore deve versare al Concedente un
 indennizzo calcolato in base alla durata residua del Contratto di Leasing pari a:
@@ -8,8 +8,7 @@ indennizzo calcolato in base alla durata residua del Contratto di Leasing pari a
 L’indennizzo non dovrà superare l’importo degli interessi che l’Utilizzatore avrebbe pagato per la durata residua del Contratto di Leasing e non sarà richiesto se il
 rimborso anticipato corrisponde all’intero debito residuo ed è pari o inferiore a 10.000 Euro
 
-ESTINZIONE ANTICIPATA IN CASO DI INADEMPIMENTO
-Il Concedente avrà facoltà di dichiarare la decadenza dal beneficio del termine e la risoluzione del Contratto di Leasing, mediante sua semplice comunicazione scritta
+ESTINZIONE ANTICIPATA IN CASO DI INADEMPIMENTO: Il Concedente avrà facoltà di dichiarare la decadenza dal beneficio del termine e la risoluzione del Contratto di Leasing, mediante sua semplice comunicazione scritta
 con la contestazione dell’inadempienza e la dichiarazione di volersi avvalere della clausola risolutiva e senza che occorra costituzione in mora o pronuncia giudiziaria,
 nel caso in cui:
 a) l’Utilizzatore non provveda puntualmente al pagamento di quattro canoni anche non consecutivi o di un importo equivalente del Contratto di Leasing;

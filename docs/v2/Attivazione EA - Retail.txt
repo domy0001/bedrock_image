@@ -1,3 +1,4 @@
+Attivazione EA - Retail
 Torino, 16/06/2023
 
 Veicolo:
@@ -16,8 +17,7 @@ abbiamo finalizzato l'estinzione e le forniamo il totale del conteggio ricalcola
 7. Spese invio estratto conto di fine contratto €
 8. Indennizzo per estinzione anticipata (5) €
 9. Interessi di mora su scaduto €
-
-TOTALE ESTINZIONE €
+TOTALE ESTINZIONE = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
 
 (1) il capitale residuo include la rata successiva, non compresa nel conteggio precedentemente fornito, nel caso in cui il pagamento sia
 pervenuto prima della scadenza della stessa ed è decurtato degli interessi dovuti per la vita residua del contratto e delle spese di incasso delle
@@ -29,35 +29,12 @@ rate future.
 anticipo (voce 1 + voce 4 - voce 5), se la durata residua è superiore ad un anno; allo 0,5% dell’importo rimborsato in anticipo, se la durata
 residua è pari od inferiore ad un anno. L'indennizzo non può superare gli interessi da corrispondere per la durata residua del contratto di
 finanziamento e non è dovuto se il debito residuo è pari o inferiore a 10.000 euro.
-
 Le ricordiamo che il conteggio precedentemente inviato non includeva la rata in immediata scadenza ("rata
 esclusa"). Pertanto, se il bonifico è pervenuto prima di tale rata questa è inclusa nel presente conteggio e, laddove
 possibile, verrà addebitata nei prossimi giorni al netto degli interessi non maturati ed eventuali servizi non goduti
 alla data di esecuzione dell'estinzione.
 Qualora il pagamento sia pervenuto successivamente alla "rata esclusa" e prima della data di validità del
 conteggio, verranno rimborsati gli interessi non maturati.
-
 La copertura RC Auto, ove presente, resterà valida fino alla scadenza indicata sul tagliando come stabilito nelle
 relative condizioni generali di polizza.
 
-Servizio Clienti
-
-Finanziamenti e servizi accessori
-Tel.: 011 4488203*
-E-mail: customer.care@ca-autobank.com
-PEC: customer.care@pec.ca-autobank.com
-
-Leasing e servizi accessori
-Tel.: 011 4488215*
-E-mail: customer.care@ca-autobank.com
-PEC: customer.care@pec.ca-autobank.com
-
-Prestiti
-Tel.: 011 4488203*
-E-mail: prestiti.personali@ca-autobank.com
-
-Polizze Assicurative
-E-mail: customer.care.insurance@ca-autobank.com
-PEC: customer.care.insurance@pec.ca-autobank.com
-
-* Gli operatori rispondono dal Lunedì al Venerdì dalle ore 8:00 alle ore 18:00 e il Sabato dalle ore 08:00 alle ore 13:00

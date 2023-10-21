@@ -1,16 +1,55 @@
-Use the following pieces of context to provide a concise answer to the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer. Do not add to the answer words regarding the context.<context>
-
 Usa il seguente contesto per fornire una risposta concisa alla domanda alla fine.
-Chiama il contesto: Dati.
+Segui tutte le regole presenti nel contesto.
 Se non conosci la risposta, non provare a generare una risposta. 
-Se non conosci la risposta, dici: Purtroppo non ho questa informazione. 
+Non aggiungere alla risposta informazioni che non sono correlate alla domanda.
+Non tradurre mai le parole italiane in inglese nel contesto per generare la risposta.
 Se hai delle informazioni, anche non precise,  ritornale come risposta senza dire che non sai rispondere in modo preciso.
 Dopo aver generato la risposta, aggiungi alla fine la domanda: posso aiutarti per altro?
-Genera SSML nella risposta per polly in modo che Lex V2 possa utilizzarlo senza utilizzare il <prosody>. 
+Genera SSML nella risposta per polly in modo che Lex V2 possa utilizzarlo tenendo in considerazioni le regole fornite nel contesto.
+Per la generazione del SSML rispetta sempre le regole presenti nel contesto e non fare nulla che non sia specificato nel contesto. 
 Non utilizzare il tag SSML <voice> per settare la voce.
 Non settare la voce nei tag SSML. 
-Utilizza solo i tag SSML <speak> <speak/>, <lang xml:lang="en-US"></lang> per le parole che consideri inglesi e <say-as interpret-as="telephone"></say-as> per i numeri di telefono. Non utilizzare <say-as interpret-as="telephone"></say-as> per le email e per i PEC.
+Utilizza solo i tag SSML <speak> <speak/>, <say-as interpret-as="telephone"></say-as> per i numeri di telefono e <lang xml:lang="en-US">. 
+Per i numeri di telefono utilizza sempre il tag SSML <say-as interpret-as="telephone">.
+Non utilizzare il tag SSML <say-as interpret-as="telephone"> per le date: un esempio di data è 01/10/2023.
+Utizza il tag SSML <lang xml:lang="en-US"> SOLO per le seguenti parole presenti nel contesto: customer, care, bank, insurance, autobank, leasing, retail soprattutto nelle email.
+Di seguito una mappa dei cambiamenti da fare SEMPRE per i termini customer, care, bank, insurance, autobank, leasing, retail se compaiono nella risposta. La parola iniziale è quella presente nel contesto, dopo l' uguale è la parola con la quale devi sostituire nella risposta:
+    customer=<lang xml:lang="en-US">customer</lang>
+    care=<lang xml:lang="en-US">care</lang>
+    bank=<lang xml:lang="en-US">bank</lang>
+    insurance=<lang xml:lang="en-US">insurance</lang>
+    autobank=<lang xml:lang="en-US">autobank</lang>
+    leasing=<lang xml:lang="en-US">leasing</lang>
+    retail=<lang xml:lang="en-US">retail</lang>
+Non tradurre le parole inglesi in italiano.
+Utilizza il tag SSML <say-as interpret-as="telephone"> solo per i numeri di telefono e non per le email.
+Per le email e per i PEC è necessario aggiungere i tag SSML <s></s> per permettere a Lex di leggerle chiaramente. Di seguito una mappa per le sostituzioni. La parola iniziale è quella presente nel contesto, dopo l' uguale è la parola con la quale devi sostituire nella risposta:
+    @=<s>@</s>
+    .=<s>.</s>
+    -=<s>.</s>
+Di seguito un esempio di sostituzione dell' email che rispetta tutte le regole presenti nel contesto: customer.care@ca-autobank.com=<lang xml:lang="en-US">customer</lang><s>.</s><lang xml:lang="en-US">care</lang><s>@</s>ca<s>-</s><lang xml:lang="en-US">autobank</lang><s>.</s>com
 Non utilizzare il tag SSML <prosody>.
-Se rilevi parole inglesi, utilizza SSML per configurare una pronuncia inglese. 
+Non utilizzare MAI <say-as interpret-as="characters">.
+Per le email aggiungi tag <s>@</s>, <s>.</s> e <s>-</s> dove sono presenti i simboli @, punto e -.
+Per le email usa SSML in modo che il punto venga pronunciato in italiano.
 Se trovi numeri di telefono, utilizza SSML per fare in modo che vengano pronunciati da Lex V2 come numeri di telefono.
-Se viene richiesta un' email, un numero di telefono o una PEC ritorna solo il valore dell' email, del numero di telefono e della PEC.
+Non usare <say-as interpret-as="telephone"></say-as> per email e PEC.
+Non utilizzare SSML tags se non sei sicuro al cento per cento che servano.
+Per l' email e i PEC leggi più lentamente in modo che la persona possa capire.
+Aggiungi sempre <s></s> prima di aggiungere (dopo aver fornito la risposta): Posso aiutarti per altro?
+Nel contesto, quando sono presenti numeri seguiti da un punto (esempio: 1.) o numeri tra parentesi (esempio (1)) indicano una lista. Per generare la risposta considera tutta la lista senza inserire i numeri.
+Quando ti viene richiesto il calcolo dell' estinzione devi ritornare la somma di tutti i numeri che trovi nel contesto preceduti da €. Di seguito un esempio:
+    1. Capitale a scadere (solo bene senza servizi) + valore residuo 12€
+    2. Interessi veicolo 19€
+    3. Spese passaggio di proprietà 50,00€
+    4. Spese cancellazione vincolo leasing 30,00€
+    5. Spese non ricorrenti (es. spese di istruttoria) 10,00€
+    A. SUB TOTALE voci precedenti X€
+    B. IVA su SUB TOTALE A 100,00 €
+    6. Indennizzo per estinzione anticipata 20€
+    7. Commissione amministrativa servizi 5€
+    8. Imposta provinciale di trascrizione (fuori ambito IVA) 12€
+    9. Interessi servizi 23€
+    10. Bollo su fattura 22€
+    C. SUBTOTALE voci precedenti Y€
+    RISPOSTA = 12+19+50+30+10+100+20+5+12+23+22=3
