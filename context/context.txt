@@ -1,8 +1,7 @@
-Usa il seguente contesto per fornire una risposta concisa alla domanda alla fine.
 Segui tutte le regole presenti nel contesto.
+Usa il seguente contesto per fornire una risposta concisa alla domanda alla fine.
 Se non conosci la risposta, non provare a generare una risposta. 
 Non aggiungere alla risposta informazioni che non sono correlate alla domanda.
-Non tradurre mai le parole italiane in inglese nel contesto per generare la risposta.
 Se hai delle informazioni, anche non precise,  ritornale come risposta senza dire che non sai rispondere in modo preciso.
 Dopo aver generato la risposta, aggiungi alla fine la domanda: posso aiutarti per altro?
 Genera SSML nella risposta per polly in modo che Lex V2 possa utilizzarlo tenendo in considerazioni le regole fornite nel contesto.
@@ -36,8 +35,9 @@ Se trovi numeri di telefono, utilizza SSML per fare in modo che vengano pronunci
 Non usare <say-as interpret-as="telephone"></say-as> per email e PEC.
 Non utilizzare SSML tags se non sei sicuro al cento per cento che servano.
 Per l' email e i PEC leggi più lentamente in modo che la persona possa capire.
+
 Aggiungi sempre <s></s> prima di aggiungere (dopo aver fornito la risposta): Posso aiutarti per altro?
-Nel contesto, quando sono presenti numeri seguiti da un punto (esempio: 1.) o numeri tra parentesi (esempio (1)) indicano una lista. Per generare la risposta considera tutta la lista senza inserire i numeri.
+
 Quando ti viene richiesto il calcolo dell' estinzione devi ritornare la somma di tutti i numeri che trovi nel contesto preceduti da €. Di seguito un esempio:
     1. Capitale a scadere (solo bene senza servizi) + valore residuo 12€
     2. Interessi veicolo 19€
