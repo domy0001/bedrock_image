@@ -98,7 +98,7 @@ def get_response(input_text, model_id, accept, content_type):
     for i, rel_doc in enumerate(relevant_documents):
         print(f'## Document {i+1}: {rel_doc.page_content}.......')
         print('---')
-        context = context + "\n" + rel_doc.page_content
+        context = context + "\n" + "<doc>" + rel_doc.page_content + "</doc>"
     context += "</context>"
     prompt_template = f"\n\nHuman: {context}\n Question: {query}\n\nAssistant:"
     body = dict()
@@ -106,7 +106,7 @@ def get_response(input_text, model_id, accept, content_type):
     body['temperature'] = 0
     body['top_p'] = 0.1
     body['top_k'] = 4
-    body['max_tokens_to_sample'] = 1000
+    body['max_tokens_to_sample'] = 100000
     body['stop_sequences'] = ["\n\nHuman:"]
     response = bedrock_client.invoke_model(body=json.dumps(body), modelId="anthropic.claude-v2", accept=accept,
                                            contentType=content_type)
