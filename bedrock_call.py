@@ -2,7 +2,6 @@ import os
 import json
 import boto3
 import pickle
-import streamlit as st
 import numpy as np
 import botocore
 import langchain
@@ -32,6 +31,11 @@ config = Config(
         'mode': 'standard'
     }
 )
+
+s3 = boto3.resource('s3')
+
+obj = s3.Object("vect-db", f"context/{os.environ.get('CONTEXT')}")
+rules_context = obj.get()['Body'].read().decode('utf-8') 
 
 parameters = {
     "maxTokenCount": 100,
@@ -70,11 +74,8 @@ def get_client():
 
 bedrock_client = get_client()
 
-@st.cache_resource
 def get_bedrock_embeddigns_model():
     return BedrockEmbeddings(model_id="amazon.titan-embed-g1-text-02", client=bedrock_client)
-
-bedrock_embeddings = get_bedrock_embeddigns_model()
 
 def get_index_pkl():
     response = s3_client.get_object(
@@ -85,8 +86,7 @@ def get_index_pkl():
 index_string_data = get_index_pkl()
 
 def get_response(input_text, model_id, accept, content_type):
-    vectorstore_faiss_pkl = pickle.loads(index_string_data)
-    vectorstore_faiss = FAISS.deserialize_from_bytes(embeddings=bedrock_embeddings, serialized=vectorstore_faiss_pkl)
+    
 
     query = input_text
     query_embedding = vectorstore_faiss.embedding_function(query)
@@ -94,7 +94,7 @@ def get_response(input_text, model_id, accept, content_type):
     relevant_documents = vectorstore_faiss.similarity_search_by_vector(query_embedding)
     print(f'{len(relevant_documents)} documents are fetched which are relevant to the query.')
     print('----')
-    context = os.environ.get('CONTEXT')
+    context = rules_context
     for i, rel_doc in enumerate(relevant_documents):
         print(f'## Document {i+1}: {rel_doc.page_content}.......')
         print('---')
@@ -106,7 +106,7 @@ def get_response(input_text, model_id, accept, content_type):
     body['temperature'] = 0
     body['top_p'] = 0.1
     body['top_k'] = 4
-    body['max_tokens_to_sample'] = 100000
+    body['max_tokens_to_sample'] = 10000
     body['stop_sequences'] = ["\n\nHuman:"]
     response = bedrock_client.invoke_model(body=json.dumps(body), modelId="anthropic.claude-v2", accept=accept,
                                            contentType=content_type)
@@ -115,6 +115,10 @@ def get_response(input_text, model_id, accept, content_type):
     print(f'\n Answer: {answer}')
     return answer
 
+bedrock_embeddings = get_bedrock_embeddigns_model()
+
+vectorstore_faiss_pkl = pickle.loads(index_string_data)
+vectorstore_faiss = FAISS.deserialize_from_bytes(embeddings=bedrock_embeddings, serialized=vectorstore_faiss_pkl)
 
 def handler(event, context):
     print(json.dumps(event))

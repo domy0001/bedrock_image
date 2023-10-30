@@ -3,4 +3,3 @@ numpy==1.24.4
 boto3-1.28.21-py3-none-any.whl
 botocore-1.31.21-py3-none-any.whl
 faiss-cpu==1.7.4
-streamlit
